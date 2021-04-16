@@ -1,0 +1,15 @@
+<!--pages/home_center/common_panel/components/Integer/index.wxml-->
+<view class="integer-container" style="width: 750rpx; height: 190rpx; display: flex; box-sizing: border-box; left: 0rpx; top: -38rpx; position: relative">
+  <view class="integer-name" style="position: relative; left: 0rpx; top: -36rpx">{{dpName}}:{{value}}{{unit}}</view>
+  <van-slider style="width: 638rpx; height: 4rpx; display: block; box-sizing: border-box; left: 0rpx; top: -57rpx; position: relative"  min="{{min}}" step="{{step}}" max="{{max}}" value="{{value}}" active-color="#349fff" bind:change="onChange" />
+</view>
+
+<view class="elec" style="width: 750rpx; height: 228rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx; position: relative">
+  <text style="position: relative; left: 570rpx; top: 169rpx">电量统计</text>
+  <text style="position: relative; left: 149rpx; top: 169rpx">定时设置</text>
+  <text style="position: relative; left: -242rpx; top: 171rpx">开关</text>
+  <button class="tapbtn1"bindtap="skyOnclick" style="position: relative; left: 2rpx; top: 21rpx; width: 148rpx; height: 78rpx; display: block; box-sizing: border-box"plain="true"><image class="count" src="/image/倒计时.png" ></image></button>
+
+  <button class="tapbtn1"bindtap="skyOnclick"  style="position: relative; left: 271rpx; top: -57rpx; width: 148rpx; height: 78rpx; display: block; box-sizing: border-box"plain="true"><image   class="elec"src="/image/电量.png"></image></button>
+  <button class="tapbtn1"bindtap="skyOnclick" style="position: relative; left: -279rpx; top: -135rpx; width: 148rpx; height: 78rpx; display: block; box-sizing: border-box"plain="true"><image class="count" src="/image/开关.png" ></image></button>
+</view>

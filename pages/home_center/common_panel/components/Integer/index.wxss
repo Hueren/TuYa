@@ -1,0 +1,38 @@
+/* pages/home_center/common_panel/components/Integer/index.wxss */
+
+.integer-container {
+  margin-top: 16px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 20px 24px;
+  background-color: #fff;
+  border-radius: 14px;
+}
+
+.integer-name{
+  margin-bottom: 30px;
+  text-align: left;
+  font-family: PingFangSC-Medium;
+  font-size: 16px;
+  line-height: 25px;
+  position: relative;
+  color: #505050;
+}
+
+.count{
+width: 66rpx;
+height: 66rpx;
+}
+.elec{
+width: 66rpx;
+height: 66rpx;
+
+}
+.tapbtn1[plain]{
+border: none;
+}
+.elec{
+  background-color: #fff;
+
+}
